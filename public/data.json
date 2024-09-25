@@ -1,0 +1,58 @@
+{
+    "loads": [
+      {
+        "id": 1,
+        "spot": "99",
+        "po": "22949",
+        "carrier": "Carrier J",
+        "fein": "799753983",
+        "vtc": "VTC165",
+        "badge": "Badge718",
+        "status": "Completed",
+        "deliveryStart": "2024-09-23 21:09",
+        "deliveryEnd": "2024-10-09 21:09",
+        "audit": {
+          "created": "2024-10-17 21:09",
+          "updated": "2024-10-02 21:09",
+          "source": "SWIFT"
+        },
+        "compartments": [
+          {
+            "recipe": "Unleaded 88",
+            "gallons": "1278",
+            "additives": "Additive3, Additive4",
+            "products": [
+              "STOG (930f7e02-4029-4869-af7e-a0a7db602210 / 2327fd06-e904-4a70-8b9b-386450201dec)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "spot": "8",
+        "po": "34730",
+        "carrier": "Carrier O",
+        "fein": "958153979",
+        "vtc": "VTC835",
+        "badge": "Badge944",
+        "status": "In Transit",
+        "deliveryStart": "2024-10-16 21:09",
+        "deliveryEnd": "2024-09-24 21:09",
+        "audit": {
+          "created": "2024-09-28 21:09",
+          "updated": "2024-10-02 21:09",
+          "source": "TAS"
+        },
+        "compartments": [
+          {
+            "recipe": "Premium Unleaded",
+            "gallons": "1574",
+            "additives": "Red Dye, Lubricity",
+            "products": [
+              "RGFM (74caeade-6fd2-40b2-a253-6a6944f267f8 / e51b2b09-0992-494e-b642-b8863f49497a)"
+            ]
+          }
+        ]
+      }
+    ]
+  }
